@@ -2,9 +2,7 @@
     'use strict';
     window.opspark = window.opspark || {};
     window.opspark.platform = window.opspark.platform || {};
-    
     let platform = window.opspark.platform;
-    
     /**
      * init: This function initializes the platforms for the level.
      * 
@@ -25,7 +23,6 @@
      */ 
     function init(game) {
         let createPlatform = platform.create;
-
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
@@ -43,7 +40,6 @@
         createPlatform(715, 375, 0.5);
         createPlatform(215, 300);
         createPlatform(450, 415, 0.5);
-        
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     }

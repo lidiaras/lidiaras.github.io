@@ -11,7 +11,6 @@
         grace: {assetKey: 'grace', points: 40},
         kennedi: {assetKey: 'kennedi', points: 50}
     };
-    
     /**
      * init: Initialize all collectables.
      * 
@@ -31,8 +30,7 @@
      *      bounce: OPTIONAL A factor effecting how much the collectable will bounce off platforms, etc.
      */ 
     function init(game) {
-        let createCollectable = collectable.create;
-
+        let createCollectable = collectable.create; 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
@@ -40,9 +38,6 @@
         createCollectable(type.steve, 250, 170, 6, 0.7);
         createCollectable(type.kennedi, 700, 200, 8, 0.8);
         createCollectable(type.max, 350, 250, 6, 0.9);
-        
-        
-        
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };

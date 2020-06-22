@@ -3,7 +3,6 @@
     window.opspark = window.opspark || {};
     window.opspark.collectable = window.opspark.collectable || {};
     let cannon = window.opspark.cannon;
-    
     /**
      * init: Initialize all cannons.
      *
@@ -29,10 +28,7 @@
         // example: 
         createCannon("top", 450);
         createCannon("bottom", 650);
-        createCannon("bottom", 165);
-    
-        
-        
+        createCannon("bottom", 165); 
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
